@@ -1,0 +1,317 @@
+2011/10/25 02:52:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'tin003_bookstore'@'ip218-157.wlan-zone2.WKU.EDU' (using password: YES)' in /home/zeroows/yiiframework/db/CDbConnection.php:364
+Stack trace:
+#0 /home/zeroows/yiiframework/db/CDbConnection.php(313): CDbConnection->open()
+#1 /home/zeroows/yiiframework/db/CDbConnection.php(291): CDbConnection->setActive(true)
+#2 /home/zeroows/yiiframework/base/CModule.php(372): CDbConnection->init()
+#3 /home/zeroows/yiiframework/base/CModule.php(86): CModule->getComponent('db')
+#4 /home/zeroows/yiiframework/gii/generators/model/ModelCode.php(54): CModule->__get('db')
+#5 /home/zeroows/yiiframework/web/CFormModel.php(40): ModelCode->init()
+#6 /home/zeroows/yiiframework/gii/CCodeGenerator.php(149): CFormModel->__construct()
+#7 /home/zeroows/yiiframework/gii/CCodeGenerator.php(61): CCodeGenerator->prepare()
+#8 /home/zeroows/yiiframework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /home/zeroows/yiiframework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#10 /home/zeroows/yiiframework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#11 /home/zeroows/yiiframework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/zeroows/yiiframework/web/CWebApplication.php(277): CController->run('')
+#13 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('gii/model')
+#14 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#15 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#16 {main} REQUEST_URI=/zeroows/bookstore/index.php/gii/model
+2011/10/25 02:52:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'tin003_bookstore@7in.org'@'ip218-157.wlan-zone2.WKU.EDU' (using password: YES)' in /home/zeroows/yiiframework/db/CDbConnection.php:364
+Stack trace:
+#0 /home/zeroows/yiiframework/db/CDbConnection.php(313): CDbConnection->open()
+#1 /home/zeroows/yiiframework/db/CDbConnection.php(291): CDbConnection->setActive(true)
+#2 /home/zeroows/yiiframework/base/CModule.php(372): CDbConnection->init()
+#3 /home/zeroows/yiiframework/base/CModule.php(86): CModule->getComponent('db')
+#4 /home/zeroows/yiiframework/gii/generators/model/ModelCode.php(54): CModule->__get('db')
+#5 /home/zeroows/yiiframework/web/CFormModel.php(40): ModelCode->init()
+#6 /home/zeroows/yiiframework/gii/CCodeGenerator.php(149): CFormModel->__construct()
+#7 /home/zeroows/yiiframework/gii/CCodeGenerator.php(61): CCodeGenerator->prepare()
+#8 /home/zeroows/yiiframework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /home/zeroows/yiiframework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#10 /home/zeroows/yiiframework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#11 /home/zeroows/yiiframework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/zeroows/yiiframework/web/CWebApplication.php(277): CController->run('')
+#13 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('gii/model')
+#14 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#15 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#16 {main} REQUEST_URI=/zeroows/bookstore/index.php/gii/model
+2011/10/25 02:52:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'tin003_bookstore@7in.org'@'ip218-157.wlan-zone2.WKU.EDU' (using password: YES)' in /home/zeroows/yiiframework/db/CDbConnection.php:364
+Stack trace:
+#0 /home/zeroows/yiiframework/db/CDbConnection.php(313): CDbConnection->open()
+#1 /home/zeroows/yiiframework/db/CDbConnection.php(291): CDbConnection->setActive(true)
+#2 /home/zeroows/yiiframework/base/CModule.php(372): CDbConnection->init()
+#3 /home/zeroows/yiiframework/base/CModule.php(86): CModule->getComponent('db')
+#4 /home/zeroows/yiiframework/gii/generators/model/ModelCode.php(54): CModule->__get('db')
+#5 /home/zeroows/yiiframework/web/CFormModel.php(40): ModelCode->init()
+#6 /home/zeroows/yiiframework/gii/CCodeGenerator.php(149): CFormModel->__construct()
+#7 /home/zeroows/yiiframework/gii/CCodeGenerator.php(61): CCodeGenerator->prepare()
+#8 /home/zeroows/yiiframework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /home/zeroows/yiiframework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#10 /home/zeroows/yiiframework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#11 /home/zeroows/yiiframework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/zeroows/yiiframework/web/CWebApplication.php(277): CController->run('')
+#13 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('gii/model')
+#14 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#15 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#16 {main} REQUEST_URI=/zeroows/bookstore/index.php/gii/model
+2011/10/25 02:54:11 [error] [php] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] Connection timed out (trying to connect via tcp://7in.org:8080:3306) (/home/zeroows/yiiframework/db/CDbConnection.php:405)
+Stack trace:
+#0 /home/zeroows/yiiframework/db/CDbConnection.php(313): CDbConnection->open()
+#1 /home/zeroows/yiiframework/db/CDbConnection.php(291): CDbConnection->setActive()
+#2 /home/zeroows/yiiframework/base/CModule.php(372): CDbConnection->init()
+#3 /home/zeroows/yiiframework/base/CModule.php(86): CWebApplication->getComponent()
+#4 /home/zeroows/yiiframework/gii/generators/model/ModelCode.php(54): CWebApplication->__get()
+#5 /home/zeroows/yiiframework/web/CFormModel.php(40): ModelCode->init()
+#6 /home/zeroows/yiiframework/gii/CCodeGenerator.php(149): ModelCode->__construct()
+#7 /home/zeroows/yiiframework/gii/CCodeGenerator.php(61): ModelGenerator->prepare()
+#8 /home/zeroows/yiiframework/web/actions/CInlineAction.php(50): ModelGenerator->actionIndex()
+#9 /home/zeroows/yiiframework/web/CController.php(300): CInlineAction->runWithParams()
+#10 /home/zeroows/yiiframework/web/CController.php(278): ModelGenerator->runAction()
+#11 /home/zeroows/yiiframework/web/CController.php(257): ModelGenerator->runActionWithFilters()
+#12 /home/zeroows/yiiframework/web/CWebApplication.php(277): ModelGenerator->run()
+#13 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController()
+#14 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#15 /home/zeroows/public_html/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/zeroows/bookstore/index.php/gii/model
+in /home/zeroows/public_html/bookstore/index.php (13)
+2011/10/27 17:14:32 [error] [exception.CException] exception 'CException' with message 'Alias "user.UserModule" is invalid. Make sure it points to an existing PHP file.' in /home/zeroows/yiiframework/YiiBase.php:321
+Stack trace:
+#0 /home/zeroows/yiiframework/YiiBase.php(201): YiiBase::import('user.UserModule', true)
+#1 /home/zeroows/yiiframework/base/CModule.php(266): YiiBase::createComponent('user.UserModule', 'user', NULL, Array)
+#2 /home/zeroows/yiiframework/web/CWebApplication.php(332): CModule->getModule('user')
+#3 /home/zeroows/yiiframework/web/CWebApplication.php(271): CWebApplication->createController('user')
+#4 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('user')
+#5 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#6 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#7 {main} REQUEST_URI=/zeroows/bookstore/index.php/user
+2011/10/27 17:16:32 [error] [exception.CException] exception 'CException' with message 'Alias "user.UserModule" is invalid. Make sure it points to an existing PHP file.' in /home/zeroows/yiiframework/YiiBase.php:321
+Stack trace:
+#0 /home/zeroows/yiiframework/YiiBase.php(201): YiiBase::import('user.UserModule', true)
+#1 /home/zeroows/yiiframework/base/CModule.php(266): YiiBase::createComponent('user.UserModule', 'user', NULL, Array)
+#2 /home/zeroows/yiiframework/web/CWebApplication.php(332): CModule->getModule('user')
+#3 /home/zeroows/yiiframework/web/CWebApplication.php(271): CWebApplication->createController('user')
+#4 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('user')
+#5 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#6 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#7 {main} REQUEST_URI=/zeroows/bookstore/index.php/user
+2011/10/27 17:16:35 [error] [exception.CException] exception 'CException' with message 'Alias "user.UserModule" is invalid. Make sure it points to an existing PHP file.' in /home/zeroows/yiiframework/YiiBase.php:321
+Stack trace:
+#0 /home/zeroows/yiiframework/YiiBase.php(201): YiiBase::import('user.UserModule', true)
+#1 /home/zeroows/yiiframework/base/CModule.php(266): YiiBase::createComponent('user.UserModule', 'user', NULL, Array)
+#2 /home/zeroows/yiiframework/web/CWebApplication.php(332): CModule->getModule('user')
+#3 /home/zeroows/yiiframework/web/CWebApplication.php(271): CWebApplication->createController('user')
+#4 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('user')
+#5 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#6 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#7 {main} REQUEST_URI=/zeroows/bookstore/index.php/user
+2011/10/27 17:16:53 [error] [exception.CException] exception 'CException' with message 'Alias "user.UserModule" is invalid. Make sure it points to an existing PHP file.' in /home/zeroows/yiiframework/YiiBase.php:321
+Stack trace:
+#0 /home/zeroows/yiiframework/YiiBase.php(201): YiiBase::import('user.UserModule', true)
+#1 /home/zeroows/yiiframework/base/CModule.php(266): YiiBase::createComponent('user.UserModule', 'user', NULL, Array)
+#2 /home/zeroows/yiiframework/web/CWebApplication.php(332): CModule->getModule('user')
+#3 /home/zeroows/yiiframework/web/CWebApplication.php(271): CWebApplication->createController('user')
+#4 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('user')
+#5 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#6 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#7 {main} REQUEST_URI=/zeroows/bookstore/index.php/user
+2011/10/27 17:16:54 [error] [exception.CException] exception 'CException' with message 'Alias "user.UserModule" is invalid. Make sure it points to an existing PHP file.' in /home/zeroows/yiiframework/YiiBase.php:321
+Stack trace:
+#0 /home/zeroows/yiiframework/YiiBase.php(201): YiiBase::import('user.UserModule', true)
+#1 /home/zeroows/yiiframework/base/CModule.php(266): YiiBase::createComponent('user.UserModule', 'user', NULL, Array)
+#2 /home/zeroows/yiiframework/web/CWebApplication.php(332): CModule->getModule('user')
+#3 /home/zeroows/yiiframework/web/CWebApplication.php(271): CWebApplication->createController('user')
+#4 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('user')
+#5 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#6 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#7 {main} REQUEST_URI=/zeroows/bookstore/index.php/user
+2011/10/27 17:21:06 [error] [php] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] Connection timed out (trying to connect via tcp://7in.org:3306:3306) (/home/zeroows/yiiframework/db/CDbConnection.php:405)
+Stack trace:
+#0 /home/zeroows/yiiframework/db/CDbConnection.php(313): CDbConnection->open()
+#1 /home/zeroows/yiiframework/db/CDbConnection.php(291): CDbConnection->setActive()
+#2 /home/zeroows/yiiframework/base/CModule.php(372): CDbConnection->init()
+#3 /home/zeroows/yiiframework/base/CApplication.php(429): CWebApplication->getComponent()
+#4 /home/zeroows/yiiframework/db/ar/CActiveRecord.php(609): CWebApplication->getDb()
+#5 /home/zeroows/yiiframework/db/ar/CActiveRecord.php(2275): User->getDbConnection()
+#6 /home/zeroows/yiiframework/db/ar/CActiveRecord.php(372): CActiveRecordMetaData->__construct()
+#7 /home/zeroows/public_html/bookstore/protected/modules/user/models/User.php(28): model()
+#8 /home/zeroows/public_html/bookstore/protected/modules/user/UserModule.php(226): model()
+#9 /home/zeroows/public_html/bookstore/protected/modules/user/controllers/ProfileController.php(98): user()
+#10 /home/zeroows/public_html/bookstore/protected/modules/user/controllers/ProfileController.php(16): ProfileController->loadUser()
+#11 /home/zeroows/yiiframework/web/actions/CInlineAction.php(50): ProfileController->actionProfile()
+#12 /home/zeroows/yiiframework/web/CController.php(300): CInlineAction->runWithParams()
+#13 /home/zeroows/yiiframework/web/CController.php(278): ProfileController->runAction()
+#14 /home/zeroows/yiiframework/web/CController.php(257): ProfileController->runActionWithFilters()
+#15 /home/zeroows/yiiframework/web/CWebApplication.php(277): ProfileController->run()
+#16 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController()
+#17 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#18 /home/zeroows/public_html/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/zeroows/bookstore/index.php/user/profile
+in /home/zeroows/public_html/bookstore/protected/modules/user/models/User.php (28)
+in /home/zeroows/public_html/bookstore/protected/modules/user/UserModule.php (226)
+in /home/zeroows/public_html/bookstore/protected/modules/user/controllers/ProfileController.php (98)
+2011/10/27 17:24:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bookstore.{{users}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{users}}`.
+in /home/zeroows/public_html/bookstore/protected/modules/user/models/User.php (28)
+in /home/zeroows/public_html/bookstore/protected/modules/user/UserModule.php (226)
+in /home/zeroows/public_html/bookstore/protected/modules/user/controllers/ProfileController.php (98)
+2011/10/27 17:24:53 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{users}}" for active record class "User" cannot be found in the database.' in /home/zeroows/yiiframework/db/ar/CActiveRecord.php:2276
+Stack trace:
+#0 /home/zeroows/yiiframework/db/ar/CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(User))
+#1 /home/zeroows/public_html/bookstore/protected/modules/user/models/User.php(28): CActiveRecord::model('User')
+#2 /home/zeroows/public_html/bookstore/protected/modules/user/UserModule.php(226): User::model()
+#3 /home/zeroows/public_html/bookstore/protected/modules/user/controllers/ProfileController.php(98): UserModule::user()
+#4 /home/zeroows/public_html/bookstore/protected/modules/user/controllers/ProfileController.php(16): ProfileController->loadUser()
+#5 /home/zeroows/yiiframework/web/actions/CInlineAction.php(50): ProfileController->actionProfile()
+#6 /home/zeroows/yiiframework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#7 /home/zeroows/yiiframework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#8 /home/zeroows/yiiframework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/zeroows/yiiframework/web/CWebApplication.php(277): CController->run('')
+#10 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('user/profile')
+#11 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/zeroows/bookstore/index.php/user/profile
+2011/10/27 17:32:02 [error] [php] Trying to get property of non-object (/home/zeroows/public_html/bookstore/protected/modules/user/UserModule.php:178)
+Stack trace:
+#0 /home/zeroows/yiiframework/web/CBaseController.php(88): DefaultController->renderInternal()
+#1 /home/zeroows/yiiframework/web/CController.php(866): DefaultController->renderFile()
+#2 /home/zeroows/yiiframework/web/CController.php(779): DefaultController->renderPartial()
+#3 /home/zeroows/public_html/bookstore/protected/modules/user/controllers/DefaultController.php(22): DefaultController->render()
+#4 /home/zeroows/yiiframework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#5 /home/zeroows/yiiframework/web/CController.php(300): CInlineAction->runWithParams()
+#6 /home/zeroows/yiiframework/web/CController.php(278): DefaultController->runAction()
+#7 /home/zeroows/yiiframework/web/CController.php(257): DefaultController->runActionWithFilters()
+#8 /home/zeroows/yiiframework/web/CWebApplication.php(277): DefaultController->run()
+#9 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController()
+#10 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#11 /home/zeroows/public_html/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/zeroows/bookstore/index.php/user/
+in /home/zeroows/public_html/bookstore/protected/modules/user/UserModule.php (178)
+in /home/zeroows/public_html/bookstore/protected/modules/user/views/user/index.php (8)
+in /home/zeroows/public_html/bookstore/protected/modules/user/controllers/DefaultController.php (22)
+2011/10/27 17:32:06 [error] [php] Trying to get property of non-object (/home/zeroows/public_html/bookstore/protected/modules/user/UserModule.php:178)
+Stack trace:
+#0 /home/zeroows/yiiframework/web/CBaseController.php(88): DefaultController->renderInternal()
+#1 /home/zeroows/yiiframework/web/CController.php(866): DefaultController->renderFile()
+#2 /home/zeroows/yiiframework/web/CController.php(779): DefaultController->renderPartial()
+#3 /home/zeroows/public_html/bookstore/protected/modules/user/controllers/DefaultController.php(22): DefaultController->render()
+#4 /home/zeroows/yiiframework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#5 /home/zeroows/yiiframework/web/CController.php(300): CInlineAction->runWithParams()
+#6 /home/zeroows/yiiframework/web/CController.php(278): DefaultController->runAction()
+#7 /home/zeroows/yiiframework/web/CController.php(257): DefaultController->runActionWithFilters()
+#8 /home/zeroows/yiiframework/web/CWebApplication.php(277): DefaultController->run()
+#9 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController()
+#10 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#11 /home/zeroows/public_html/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/zeroows/bookstore/index.php/user
+in /home/zeroows/public_html/bookstore/protected/modules/user/UserModule.php (178)
+in /home/zeroows/public_html/bookstore/protected/modules/user/views/user/index.php (8)
+in /home/zeroows/public_html/bookstore/protected/modules/user/controllers/DefaultController.php (22)
+2011/10/27 17:50:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "USER/INSTALL".' in /home/zeroows/yiiframework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('USER/INSTALL')
+#1 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/zeroows/bookstore/index.php/USER/INSTALL
+2011/10/27 19:28:45 [error] [exception.CException] exception 'CException' with message 'User management module is not in Debug Mode' in /home/zeroows/public_html/bookstore/protected/modules/user/controllers/YumInstallController.php:468
+Stack trace:
+#0 /home/zeroows/yiiframework/web/actions/CInlineAction.php(50): YumInstallController->actionInstall()
+#1 /home/zeroows/yiiframework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#2 /home/zeroows/yiiframework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /home/zeroows/yiiframework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /home/zeroows/yiiframework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#5 /home/zeroows/yiiframework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 /home/zeroows/yiiframework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /home/zeroows/yiiframework/web/CController.php(283): CFilterChain->run()
+#8 /home/zeroows/yiiframework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/zeroows/yiiframework/web/CWebApplication.php(277): CController->run('install')
+#10 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('user/install/in...')
+#11 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/zeroows/bookstore/index.php/user/install/install
+2011/11/02 15:46:08 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "data".' in /home/zeroows/yiiframework/base/CComponent.php:269
+Stack trace:
+#0 /home/zeroows/public_html/bookstore/protected/modules/user/controllers/YumController.php(24): CComponent->__call('data', Array)
+#1 /home/zeroows/public_html/bookstore/protected/modules/user/controllers/YumController.php(24): CWebUser->data()
+#2 /home/zeroows/yiiframework/web/CController.php(298): YumController->beforeAction(Object(CInlineAction))
+#3 /home/zeroows/yiiframework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /home/zeroows/yiiframework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/zeroows/yiiframework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#6 /home/zeroows/yiiframework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/zeroows/yiiframework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/zeroows/yiiframework/web/CController.php(283): CFilterChain->run()
+#9 /home/zeroows/yiiframework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/zeroows/yiiframework/web/CWebApplication.php(277): CController->run('')
+#11 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('user')
+#12 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/zeroows/bookstore/index.php/user
+2011/11/02 15:46:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "book".' in /home/zeroows/yiiframework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('book')
+#1 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/zeroows/bookstore/index.php/book
+2011/11/04 15:26:58 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in /home/zeroows/yiiframework/base/CComponent.php:269
+Stack trace:
+#0 /home/zeroows/public_html/bookstore/protected/modules/user/controllers/YumUserController.php(94): CComponent->__call('isAdmin', Array)
+#1 /home/zeroows/public_html/bookstore/protected/modules/user/controllers/YumUserController.php(94): CWebUser->isAdmin()
+#2 /home/zeroows/yiiframework/web/CController.php(298): YumUserController->beforeAction(Object(CInlineAction))
+#3 /home/zeroows/yiiframework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /home/zeroows/yiiframework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/zeroows/yiiframework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#6 /home/zeroows/yiiframework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/zeroows/yiiframework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/zeroows/yiiframework/web/CController.php(283): CFilterChain->run()
+#9 /home/zeroows/yiiframework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/zeroows/yiiframework/web/CWebApplication.php(277): CController->run('')
+#11 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('user/login')
+#12 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/zeroows/bookstore/index.php/user/login
+2011/11/04 15:27:31 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in /home/zeroows/yiiframework/base/CComponent.php:269
+Stack trace:
+#0 /home/zeroows/public_html/bookstore/protected/modules/user/controllers/YumUserController.php(94): CComponent->__call('isAdmin', Array)
+#1 /home/zeroows/public_html/bookstore/protected/modules/user/controllers/YumUserController.php(94): CWebUser->isAdmin()
+#2 /home/zeroows/yiiframework/web/CController.php(298): YumUserController->beforeAction(Object(CInlineAction))
+#3 /home/zeroows/yiiframework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /home/zeroows/yiiframework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/zeroows/yiiframework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#6 /home/zeroows/yiiframework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/zeroows/yiiframework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/zeroows/yiiframework/web/CController.php(283): CFilterChain->run()
+#9 /home/zeroows/yiiframework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/zeroows/yiiframework/web/CWebApplication.php(277): CController->run('')
+#11 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('user/login')
+#12 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/zeroows/bookstore/index.php/user/login
+2011/11/04 15:34:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "genra".' in /home/zeroows/yiiframework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('genra')
+#1 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/zeroows/bookstore/index.php/genra
+2011/11/04 15:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Condition".' in /home/zeroows/yiiframework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('Condition')
+#1 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/zeroows/bookstore/index.php/Condition
+2011/11/04 15:35:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Condition".' in /home/zeroows/yiiframework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('Condition')
+#1 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/zeroows/bookstore/index.php/Condition
+2011/11/04 15:37:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Condition".' in /home/zeroows/yiiframework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('Condition')
+#1 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/zeroows/bookstore/index.php/Condition
+2011/11/04 15:37:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Condition".' in /home/zeroows/yiiframework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/zeroows/yiiframework/web/CWebApplication.php(136): CWebApplication->runController('Condition')
+#1 /home/zeroows/yiiframework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/zeroows/public_html/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/zeroows/bookstore/index.php/Condition
